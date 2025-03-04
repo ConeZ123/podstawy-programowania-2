@@ -10,11 +10,4 @@ def sort(lista: list):
     return max
 
 print(sort(liczby))
-                
-
-
-# funkcja znajdzmax(lista)
-#   max = lista[0]
-#   tworzymy petle dla kazdego elementu z listy
-#   jezeli liczba jest wieksza od max
-#   max = liczba    
+                    
