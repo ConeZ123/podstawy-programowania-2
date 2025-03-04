@@ -21,3 +21,5 @@ def eukR(a: int, b: int):
         return eukR(a, b-a)
     
 print("NWD rekurencyjnie:", eukR(8, 26))
+
+# wersja modulo (iteracyjnie i rekurencyjnie)
