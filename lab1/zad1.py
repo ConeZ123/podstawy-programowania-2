@@ -15,8 +15,3 @@ def sort(lista: list):
         return False
 
 print(sort(liczby))
-                    
-
-def findMax2(liczby: list[int]) -> int:
-    if not liczby:
-        return None
