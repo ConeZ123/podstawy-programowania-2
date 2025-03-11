@@ -9,5 +9,9 @@ def prime(n: int):
             return False
         else:
             return True
-        
+                
 print(prime(7))
+
+# znalezienie liczb pierwszych od 0 do n
+# w formie listy
+# rekurencja (?) 
