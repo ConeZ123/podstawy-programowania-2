@@ -32,3 +32,20 @@ def znajdzDzielnik4(n: int) -> list[int]:
             dzielniki.append(i)
             dzielniki.append(n // i)
     return dzielniki
+
+# znajdz najwiekszy dzielnik
+
+def znajdzNajwiekszyDzielnik(n: int) -> list[int]:
+    dzielniki = []
+
+    for i in range(1 , n+1):
+        if n % i == 0:
+            dzielniki.append(i)
+            max = dzielniki[0]
+            if i > max:
+                max = i
+                dzielniki.clear()
+                dzielniki.append(max)
+    return dzielniki
+
+print(znajdzNajwiekszyDzielnik(100))
